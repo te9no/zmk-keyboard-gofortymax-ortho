@@ -1,0 +1,6 @@
+if SHIELD_GOFORTY_MAX
+
+config ZMK_KEYBOARD_NAME
+    default "goforty-max"
+
+endif

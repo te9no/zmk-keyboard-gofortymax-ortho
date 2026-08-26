@@ -1,0 +1,2 @@
+config SHIELD_GOFORTY_MAX
+    def_bool $(shields_list_contains,goforty_max)

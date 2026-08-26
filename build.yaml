@@ -1,0 +1,8 @@
+include:
+  - board: acdb
+    shield: goforty_max
+    snippet: studio-rpc-usb-uart
+    artifact-name: goforty_max
+  - board: acdb
+    shield: settings_reset
+    artifact-name: settings_reset
