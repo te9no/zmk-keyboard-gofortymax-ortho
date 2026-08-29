@@ -10,7 +10,11 @@
             // Layer 0: o51go の Remap キーマップと同一構成(BTキー2個の追加のみ)
 
             bindings = <
-&bt BT_PRV  &bt BT_NXT  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp LBRC  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp DEL  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp SEMI  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &kp RET  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp MINUS  &kp N  &kp M  &kp COMMA  &kp DOT  &kp UP  &lt 1 INT_RO  &kp LANG1  &mt LGUI LANG2  &kp LALT  &mt LEFT_WIN INT_MUHENKAN  &lt 2 RET  &kp BSPC  &kp DELETE  &lt 1 SPACE  &mt LALT INT_HENKAN  &kp LEFT  &kp DOWN  &kp RIGHT
+&bt BT_PRV                                                                                                                                                               &bt BT_NXT
+&kp TAB     &kp Q           &kp W     &kp E                      &kp R      &kp T          &kp LBRC   &kp Y       &kp U        &kp I                &kp O     &kp P      &kp DEL
+&kp LCTRL   &kp A           &kp S     &kp D                      &kp F      &kp G          &kp SEMI   &kp H       &kp J        &kp K                &kp L     &kp MINUS  &kp RET
+&kp LSHFT   &kp Z           &kp X     &kp C                      &kp V      &kp B          &kp MINUS  &kp N       &kp M        &kp COMMA            &kp DOT   &kp UP     &lt 1 INT_RO
+&kp LANG1   &mt LGUI LANG2  &kp LALT  &mt LEFT_WIN INT_MUHENKAN  &lt 2 RET  &kp BACKSPACE             &kp DELETE  &lt 1 SPACE  &mt LALT INT_HENKAN  &kp LEFT  &kp DOWN   &kp RIGHT
             >;
         };
 
@@ -19,7 +23,11 @@
             // それ以外の機能はビルド後にZMK Studioから自由に割り当てる。
 
             bindings = <
-&studio_unlock  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&studio_unlock                                                                               &none
+&none           &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none           &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none           &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none           &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -27,7 +35,11 @@
             // Layer 2: 空。ZMK Studioから割り当てる。
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none                                                                               &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -35,7 +47,11 @@
             // Layer 3: 空。ZMK Studioから割り当てる。
 
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none                                                                               &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none
             >;
         };
     };
